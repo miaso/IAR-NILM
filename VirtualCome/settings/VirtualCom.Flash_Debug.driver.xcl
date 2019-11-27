@@ -1,0 +1,23 @@
+"--endian=little" 
+
+"--cpu=ARM7TDMI-S" 
+
+"--fpu=None" 
+
+"-p" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CONFIG\debugger\NXP\LPC2478.ddf" 
+
+"--drv_verify_download" 
+
+"--semihosting" 
+
+"--device=LPC2478" 
+
+"--drv_communication=USB0" 
+
+"--drv_interface_speed=adaptive" 
+
+
+
+

@@ -1,0 +1,17 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armjlink2.dll" 
+
+"C:\Users\User\Google Drive\Hands On MCU NILM Project\Current  IAR source code\Merged Projects, Working\VirtualCom\Flash Debug\Exe\virtual_com.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\NXP\LPC24xx.dmac" 
+
+--macro "C:\Users\User\Google Drive\Hands On MCU NILM Project\Current  IAR source code\Merged Projects, Working\VirtualCom\config\lpc2478.mac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\NXP\FlashNXPLPC512K2.board" 
+
+
+
+
