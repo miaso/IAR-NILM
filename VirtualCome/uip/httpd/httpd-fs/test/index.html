@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<button type="button" onclick="loadXMLDoc()">Get my freq values</button>
+<br><br>
+
+
+<table id="demo"></table>
+<table id="demo2"></table>
+
+
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+      myFunction(xmlhttp);
+    }
+  };
+  xmlhttp.open("GET", "http://192.168.0.100/data_freq.xml", true);
+  console.log("Data connection open");
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Values</th></tr>";
+  var x = xmlDoc.getElementsByTagName("fr"); 
+  var z = xmlDoc.getElementsByTagName("volt"); 
+    frequency = x[0].childNodes[0].nodeValue;
+	voltage = x[1].childNodes[0].nodeValue;
+
+  
+  document.getElementById("demo").innerHTML = frequency;
+   document.getElementById("demo2").innerHTML = voltage;
+ 
+
+}
+
+var carName = 50;
+var carName2 = 135;
+console.log('Hello');
+document.getElementById("demo").innerHTML = carName;
+document.getElementById("demo2").innerHTML = carName;
+
+</script>
+
+
+</body>
+</html>
