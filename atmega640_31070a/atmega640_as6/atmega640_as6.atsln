@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "atmega640_as6", "atmega640_as6\atmega640_as6.cproj", "{431E9E5E-317D-4A6F-A736-B9EECBE6F51F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{431E9E5E-317D-4A6F-A736-B9EECBE6F51F}.Debug|AVR.ActiveCfg = Debug|AVR
+		{431E9E5E-317D-4A6F-A736-B9EECBE6F51F}.Debug|AVR.Build.0 = Debug|AVR
+		{431E9E5E-317D-4A6F-A736-B9EECBE6F51F}.Release|AVR.ActiveCfg = Release|AVR
+		{431E9E5E-317D-4A6F-A736-B9EECBE6F51F}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
